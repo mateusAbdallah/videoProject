@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+}
+
+h1 {
+    color: yellow;
+    font-size: 45px;
+}
